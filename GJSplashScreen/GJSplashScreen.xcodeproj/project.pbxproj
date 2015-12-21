@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53CC494B1C24518C0050EC57 /* GJContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CC49431C24518C0050EC57 /* GJContentController.m */; settings = {ASSET_TAGS = (); }; };
+		53CC494C1C24518C0050EC57 /* GJSplashScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CC49461C24518C0050EC57 /* GJSplashScreenController.m */; settings = {ASSET_TAGS = (); }; };
+		53CC494D1C24518C0050EC57 /* GJSplashScreenWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CC49481C24518C0050EC57 /* GJSplashScreenWindow.m */; settings = {ASSET_TAGS = (); }; };
+		B6AF3BDA461E48FF96C991EE /* libPods-GJSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D15A94CC567FCBBAA8A8E4 /* libPods-GJSplashScreen.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53CC49051C24508D0050EC57 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1EAA9CFC9B20428993A6C856 /* Pods-GJSplashScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJSplashScreen.release.xcconfig"; path = "Pods/Target Support Files/Pods-GJSplashScreen/Pods-GJSplashScreen.release.xcconfig"; sourceTree = "<group>"; };
+		52D15A94CC567FCBBAA8A8E4 /* libPods-GJSplashScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GJSplashScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CC49071C24508D0050EC57 /* libGJSplashScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGJSplashScreen.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CC49421C24518C0050EC57 /* GJContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJContentController.h; sourceTree = "<group>"; };
+		53CC49431C24518C0050EC57 /* GJContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJContentController.m; sourceTree = "<group>"; };
+		53CC49441C24518C0050EC57 /* GJSplashScreenConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJSplashScreenConfig.h; sourceTree = "<group>"; };
+		53CC49451C24518C0050EC57 /* GJSplashScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJSplashScreenController.h; sourceTree = "<group>"; };
+		53CC49461C24518C0050EC57 /* GJSplashScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJSplashScreenController.m; sourceTree = "<group>"; };
+		53CC49471C24518C0050EC57 /* GJSplashScreenWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJSplashScreenWindow.h; sourceTree = "<group>"; };
+		53CC49481C24518C0050EC57 /* GJSplashScreenWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJSplashScreenWindow.m; sourceTree = "<group>"; };
+		53CC494A1C24518C0050EC57 /* GJContentController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GJContentController.xib; sourceTree = "<group>"; };
+		53CC49531C25B2E70050EC57 /* closePage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closePage@2x.png"; sourceTree = "<group>"; };
+		53CC49541C25B2E70050EC57 /* closePage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closePage@3x.png"; sourceTree = "<group>"; };
+		B7018248D589002C65504444 /* Pods-GJSplashScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJSplashScreen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GJSplashScreen/Pods-GJSplashScreen.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53CC49041C24508D0050EC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AF3BDA461E48FF96C991EE /* libPods-GJSplashScreen.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF934B9FA222FDB8AAE20E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52D15A94CC567FCBBAA8A8E4 /* libPods-GJSplashScreen.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53CC48FE1C24508D0050EC57 = {
+			isa = PBXGroup;
+			children = (
+				53CC49091C24508D0050EC57 /* GJSplashScreen */,
+				53CC49081C24508D0050EC57 /* Products */,
+				D4064E56C36A0B0625DAC868 /* Pods */,
+				2FF934B9FA222FDB8AAE20E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53CC49081C24508D0050EC57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53CC49071C24508D0050EC57 /* libGJSplashScreen.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53CC49091C24508D0050EC57 /* GJSplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				53CC49411C24518C0050EC57 /* code */,
+				53CC49491C24518C0050EC57 /* resource */,
+			);
+			path = GJSplashScreen;
+			sourceTree = "<group>";
+		};
+		53CC49411C24518C0050EC57 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				53CC49441C24518C0050EC57 /* GJSplashScreenConfig.h */,
+				53CC49421C24518C0050EC57 /* GJContentController.h */,
+				53CC49431C24518C0050EC57 /* GJContentController.m */,
+				53CC49451C24518C0050EC57 /* GJSplashScreenController.h */,
+				53CC49461C24518C0050EC57 /* GJSplashScreenController.m */,
+				53CC49471C24518C0050EC57 /* GJSplashScreenWindow.h */,
+				53CC49481C24518C0050EC57 /* GJSplashScreenWindow.m */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		53CC49491C24518C0050EC57 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				53CC49531C25B2E70050EC57 /* closePage@2x.png */,
+				53CC49541C25B2E70050EC57 /* closePage@3x.png */,
+				53CC494A1C24518C0050EC57 /* GJContentController.xib */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		D4064E56C36A0B0625DAC868 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7018248D589002C65504444 /* Pods-GJSplashScreen.debug.xcconfig */,
+				1EAA9CFC9B20428993A6C856 /* Pods-GJSplashScreen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53CC49061C24508D0050EC57 /* GJSplashScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CC49101C24508D0050EC57 /* Build configuration list for PBXNativeTarget "GJSplashScreen" */;
+			buildPhases = (
+				1EFD0E385ACCDDC201457995 /* Check Pods Manifest.lock */,
+				53CC49031C24508D0050EC57 /* Sources */,
+				53CC49041C24508D0050EC57 /* Frameworks */,
+				53CC49051C24508D0050EC57 /* CopyFiles */,
+				CDABF0B26A12E9146D93F4CE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GJSplashScreen;
+			productName = GJSplashScreen;
+			productReference = 53CC49071C24508D0050EC57 /* libGJSplashScreen.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53CC48FF1C24508D0050EC57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = erliangzi;
+				TargetAttributes = {
+					53CC49061C24508D0050EC57 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 53CC49021C24508D0050EC57 /* Build configuration list for PBXProject "GJSplashScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53CC48FE1C24508D0050EC57;
+			productRefGroup = 53CC49081C24508D0050EC57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53CC49061C24508D0050EC57 /* GJSplashScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EFD0E385ACCDDC201457995 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDABF0B26A12E9146D93F4CE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GJSplashScreen/Pods-GJSplashScreen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53CC49031C24508D0050EC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CC494D1C24518C0050EC57 /* GJSplashScreenWindow.m in Sources */,
+				53CC494B1C24518C0050EC57 /* GJContentController.m in Sources */,
+				53CC494C1C24518C0050EC57 /* GJSplashScreenController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53CC490E1C24508D0050EC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53CC490F1C24508D0050EC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53CC49111C24508D0050EC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7018248D589002C65504444 /* Pods-GJSplashScreen.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		53CC49121C24508D0050EC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EAA9CFC9B20428993A6C856 /* Pods-GJSplashScreen.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53CC49021C24508D0050EC57 /* Build configuration list for PBXProject "GJSplashScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CC490E1C24508D0050EC57 /* Debug */,
+				53CC490F1C24508D0050EC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CC49101C24508D0050EC57 /* Build configuration list for PBXNativeTarget "GJSplashScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CC49111C24508D0050EC57 /* Debug */,
+				53CC49121C24508D0050EC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53CC48FF1C24508D0050EC57 /* Project object */;
+}

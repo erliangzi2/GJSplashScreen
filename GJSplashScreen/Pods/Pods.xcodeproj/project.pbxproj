@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2672A28ABE5259E4FD8B9179C32E028E /* GJColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A076DE24E3F52FA3F463528956C057 /* GJColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CD7263A9FA3C8E54EA7895405337F73 /* GJDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E1D67EC9C67710329120DBF43E6CEA /* GJDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3850137033C785360597E44A3FDD0841 /* GJImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 913353428998351ABFFC79003299F0D5 /* GJImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FD8F0184162A83CBA9C0DA23812BBEF /* Pods-GJSplashScreen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD4058401F8DCC448D5181E8061A03 /* Pods-GJSplashScreen-dummy.m */; };
+		563034A7F9C4823586E330628A301452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6420A75DF1DB8A4843C3E29D2C7D935B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8751DB311F348940277FC15F3FBAC9E6 /* GJImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B6792FA6D2204E02C8AB474461FA2723 /* GJImage.m */; };
+		92932EC8E5C06007E156F3BDCA69D2F8 /* GJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 780F58FF6AA26F029A555EF1567BD5A8 /* GJView.m */; };
+		9C05350ADDAF3285DF49BCC813B0ED76 /* GJView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DEF9779B68CE12D906E7F43B26DFF85 /* GJView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A478527A334B7105539B2E75C4DFF3A2 /* GJDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB348AEDEC0ED83854CD55F017E8811 /* GJDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1B19FCB5536FB14716FB1534AADB3D3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FC91306C155294EF48BFA6A8AE4E6A26 /* Reachability.m */; };
+		C558A6578D91801FBA0CCED498D5FB63 /* GJColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C9CD6C6138F519ED44BE3944A4CFB3 /* GJColor.m */; };
+		D8C6A0CE404E36057EB53CEF72A65B98 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = A23C9E97C436E039D0634F61592A52CD /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94FA0B7DC9D561D1C640A570B369A9B /* GJWenger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06922731AFE588E2C23FDC17492CD4D7 /* GJWenger-dummy.m */; };
+		DD4D0D86070938891D2C1841F7BD7FD0 /* GJString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4430C070AA4D01E8D16C4E326F5368C3 /* GJString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E50FC6D1B5C0A12FBFDFD688934FEFBF /* ARCSynthesizeSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC03150ADE54683C98CEF672E643A95 /* ARCSynthesizeSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFAA37C874DFD0637E0D3DE1B23BB2B2 /* GJString.m in Sources */ = {isa = PBXBuildFile; fileRef = D78FA9996AB7585C83570D6BCF1ABCCE /* GJString.m */; };
+		F3D65C3DF45B06535AB8437C21AEEE4F /* GJDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0814E13D30FBF1614A63DA1A95946 /* GJDevice.m */; };
+		FF95BFBC94DDDA7D712EB0E260C11E77 /* GJWenger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3226AC944A609F192D1B19806E51BEEE /* GJWenger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		504D5FA55CC7A67170C1659F14BF370E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3070830AA67EEC44468A6E1D56DC03D5;
+			remoteInfo = GJWenger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06922731AFE588E2C23FDC17492CD4D7 /* GJWenger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GJWenger-dummy.m"; sourceTree = "<group>"; };
+		118F893063CB183FFAF7DD14069873F2 /* Pods-GJSplashScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJSplashScreen.debug.xcconfig"; sourceTree = "<group>"; };
+		1E4D832BBFEAEC897E57D31CEF00322E /* Pods-GJSplashScreen-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJSplashScreen-acknowledgements.plist"; sourceTree = "<group>"; };
+		3226AC944A609F192D1B19806E51BEEE /* GJWenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJWenger.h; sourceTree = "<group>"; };
+		38A076DE24E3F52FA3F463528956C057 /* GJColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJColor.h; sourceTree = "<group>"; };
+		3DEF9779B68CE12D906E7F43B26DFF85 /* GJView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJView.h; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3ED0814E13D30FBF1614A63DA1A95946 /* GJDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJDevice.m; sourceTree = "<group>"; };
+		4430C070AA4D01E8D16C4E326F5368C3 /* GJString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJString.h; sourceTree = "<group>"; };
+		66C9CD6C6138F519ED44BE3944A4CFB3 /* GJColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJColor.m; sourceTree = "<group>"; };
+		6C077BB7E950895A71FBC823668B9FAF /* GJWenger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJWenger-prefix.pch"; sourceTree = "<group>"; };
+		780F58FF6AA26F029A555EF1567BD5A8 /* GJView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJView.m; sourceTree = "<group>"; };
+		7BBA0E591DD712FD4D86542E023A67C6 /* libPods-GJSplashScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GJSplashScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		913353428998351ABFFC79003299F0D5 /* GJImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJImage.h; sourceTree = "<group>"; };
+		944129A6380FC2B2AEC0E6E0138A6696 /* GJWenger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJWenger.xcconfig; sourceTree = "<group>"; };
+		9FDD4058401F8DCC448D5181E8061A03 /* Pods-GJSplashScreen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GJSplashScreen-dummy.m"; sourceTree = "<group>"; };
+		A23C9E97C436E039D0634F61592A52CD /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A8B0EFB912DE88461348B651071D7AA4 /* Pods-GJSplashScreen-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GJSplashScreen-resources.sh"; sourceTree = "<group>"; };
+		ABC03150ADE54683C98CEF672E643A95 /* ARCSynthesizeSingleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARCSynthesizeSingleton.h; sourceTree = "<group>"; };
+		B6792FA6D2204E02C8AB474461FA2723 /* GJImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJImage.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBB348AEDEC0ED83854CD55F017E8811 /* GJDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJDevice.h; sourceTree = "<group>"; };
+		BC921E4C2346E86A8523ACF5F85A706C /* Pods-GJSplashScreen-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GJSplashScreen-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4CBCC7BB74D34EA5B0D01A65D82E288 /* Pods-GJSplashScreen-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GJSplashScreen-frameworks.sh"; sourceTree = "<group>"; };
+		D78FA9996AB7585C83570D6BCF1ABCCE /* GJString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GJString.m; sourceTree = "<group>"; };
+		E4F171250CE99B0BCC6A53D845479AA2 /* libGJWenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGJWenger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA50599B20331FAB3890318621265D40 /* Pods-GJSplashScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJSplashScreen.release.xcconfig"; sourceTree = "<group>"; };
+		F6E1D67EC9C67710329120DBF43E6CEA /* GJDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GJDefine.h; sourceTree = "<group>"; };
+		FC91306C155294EF48BFA6A8AE4E6A26 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		190ADC25D8458F605E90ECBA2A48B460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563034A7F9C4823586E330628A301452 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C42D2E482361F22505FBB02792CB059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6420A75DF1DB8A4843C3E29D2C7D935B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0700A67D54E7D5AF59057F96E02D842E /* Pods-GJSplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BC921E4C2346E86A8523ACF5F85A706C /* Pods-GJSplashScreen-acknowledgements.markdown */,
+				1E4D832BBFEAEC897E57D31CEF00322E /* Pods-GJSplashScreen-acknowledgements.plist */,
+				9FDD4058401F8DCC448D5181E8061A03 /* Pods-GJSplashScreen-dummy.m */,
+				C4CBCC7BB74D34EA5B0D01A65D82E288 /* Pods-GJSplashScreen-frameworks.sh */,
+				A8B0EFB912DE88461348B651071D7AA4 /* Pods-GJSplashScreen-resources.sh */,
+				118F893063CB183FFAF7DD14069873F2 /* Pods-GJSplashScreen.debug.xcconfig */,
+				EA50599B20331FAB3890318621265D40 /* Pods-GJSplashScreen.release.xcconfig */,
+			);
+			name = "Pods-GJSplashScreen";
+			path = "Target Support Files/Pods-GJSplashScreen";
+			sourceTree = "<group>";
+		};
+		3FE0B4D13FA7D6360119318078ADA3AC /* GJWenger */ = {
+			isa = PBXGroup;
+			children = (
+				E8084F3C82FCEAB19293153A52951186 /* GJWenger */,
+				88E8D72372548D7DEF3B7CA11246FABB /* Support Files */,
+			);
+			name = GJWenger;
+			path = ../../GJWenger;
+			sourceTree = "<group>";
+		};
+		44156E45B8FF257BFC3B963FB73CE16B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0700A67D54E7D5AF59057F96E02D842E /* Pods-GJSplashScreen */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		45AE236BC0D2E1E1D2A8D332B381D872 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FE0B4D13FA7D6360119318078ADA3AC /* GJWenger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6A3CA83D9C8AF9CB6A3A837057D7B935 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				38A076DE24E3F52FA3F463528956C057 /* GJColor.h */,
+				66C9CD6C6138F519ED44BE3944A4CFB3 /* GJColor.m */,
+				BBB348AEDEC0ED83854CD55F017E8811 /* GJDevice.h */,
+				3ED0814E13D30FBF1614A63DA1A95946 /* GJDevice.m */,
+				913353428998351ABFFC79003299F0D5 /* GJImage.h */,
+				B6792FA6D2204E02C8AB474461FA2723 /* GJImage.m */,
+				3DEF9779B68CE12D906E7F43B26DFF85 /* GJView.h */,
+				780F58FF6AA26F029A555EF1567BD5A8 /* GJView.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				45AE236BC0D2E1E1D2A8D332B381D872 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				832CD5804E19D3988876815947693D39 /* Products */,
+				44156E45B8FF257BFC3B963FB73CE16B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		832CD5804E19D3988876815947693D39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4F171250CE99B0BCC6A53D845479AA2 /* libGJWenger.a */,
+				7BBA0E591DD712FD4D86542E023A67C6 /* libPods-GJSplashScreen.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88E8D72372548D7DEF3B7CA11246FABB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				944129A6380FC2B2AEC0E6E0138A6696 /* GJWenger.xcconfig */,
+				06922731AFE588E2C23FDC17492CD4D7 /* GJWenger-dummy.m */,
+				6C077BB7E950895A71FBC823668B9FAF /* GJWenger-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../GJSplashScreen/Pods/Target Support Files/GJWenger";
+			sourceTree = "<group>";
+		};
+		8EAD027F07174120BCF5E2EB0B6E8300 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				ABC03150ADE54683C98CEF672E643A95 /* ARCSynthesizeSingleton.h */,
+				F6E1D67EC9C67710329120DBF43E6CEA /* GJDefine.h */,
+				A23C9E97C436E039D0634F61592A52CD /* Reachability.h */,
+				FC91306C155294EF48BFA6A8AE4E6A26 /* Reachability.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E8084F3C82FCEAB19293153A52951186 /* GJWenger */ = {
+			isa = PBXGroup;
+			children = (
+				3226AC944A609F192D1B19806E51BEEE /* GJWenger.h */,
+				FD4D31C65F2736100FEFB0814C2EC7E7 /* Foundation */,
+				8EAD027F07174120BCF5E2EB0B6E8300 /* Others */,
+				6A3CA83D9C8AF9CB6A3A837057D7B935 /* UIKit */,
+			);
+			path = GJWenger;
+			sourceTree = "<group>";
+		};
+		FD4D31C65F2736100FEFB0814C2EC7E7 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				4430C070AA4D01E8D16C4E326F5368C3 /* GJString.h */,
+				D78FA9996AB7585C83570D6BCF1ABCCE /* GJString.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E85900F2A51CC8E2D8CA6327B959E31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50FC6D1B5C0A12FBFDFD688934FEFBF /* ARCSynthesizeSingleton.h in Headers */,
+				2672A28ABE5259E4FD8B9179C32E028E /* GJColor.h in Headers */,
+				2CD7263A9FA3C8E54EA7895405337F73 /* GJDefine.h in Headers */,
+				A478527A334B7105539B2E75C4DFF3A2 /* GJDevice.h in Headers */,
+				3850137033C785360597E44A3FDD0841 /* GJImage.h in Headers */,
+				DD4D0D86070938891D2C1841F7BD7FD0 /* GJString.h in Headers */,
+				9C05350ADDAF3285DF49BCC813B0ED76 /* GJView.h in Headers */,
+				FF95BFBC94DDDA7D712EB0E260C11E77 /* GJWenger.h in Headers */,
+				D8C6A0CE404E36057EB53CEF72A65B98 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3070830AA67EEC44468A6E1D56DC03D5 /* GJWenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF0FCF14C2EE6B81C0305989EEBB8BD /* Build configuration list for PBXNativeTarget "GJWenger" */;
+			buildPhases = (
+				517427A145F3D8B6BFC7A9A79E9FBBC1 /* Sources */,
+				190ADC25D8458F605E90ECBA2A48B460 /* Frameworks */,
+				5E85900F2A51CC8E2D8CA6327B959E31 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GJWenger;
+			productName = GJWenger;
+			productReference = E4F171250CE99B0BCC6A53D845479AA2 /* libGJWenger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E76FD9658B3866B906212CE70740C181 /* Pods-GJSplashScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE49C976141A2C948DDF3356AC5467D /* Build configuration list for PBXNativeTarget "Pods-GJSplashScreen" */;
+			buildPhases = (
+				F4B447EAAC3D497201EA5888D3E8ADF1 /* Sources */,
+				2C42D2E482361F22505FBB02792CB059 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E44BB202BA8320171ED990125BDA16A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-GJSplashScreen";
+			productName = "Pods-GJSplashScreen";
+			productReference = 7BBA0E591DD712FD4D86542E023A67C6 /* libPods-GJSplashScreen.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 832CD5804E19D3988876815947693D39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3070830AA67EEC44468A6E1D56DC03D5 /* GJWenger */,
+				E76FD9658B3866B906212CE70740C181 /* Pods-GJSplashScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		517427A145F3D8B6BFC7A9A79E9FBBC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C558A6578D91801FBA0CCED498D5FB63 /* GJColor.m in Sources */,
+				F3D65C3DF45B06535AB8437C21AEEE4F /* GJDevice.m in Sources */,
+				8751DB311F348940277FC15F3FBAC9E6 /* GJImage.m in Sources */,
+				EFAA37C874DFD0637E0D3DE1B23BB2B2 /* GJString.m in Sources */,
+				92932EC8E5C06007E156F3BDCA69D2F8 /* GJView.m in Sources */,
+				D94FA0B7DC9D561D1C640A570B369A9B /* GJWenger-dummy.m in Sources */,
+				B1B19FCB5536FB14716FB1534AADB3D3 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B447EAAC3D497201EA5888D3E8ADF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD8F0184162A83CBA9C0DA23812BBEF /* Pods-GJSplashScreen-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E44BB202BA8320171ED990125BDA16A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GJWenger;
+			target = 3070830AA67EEC44468A6E1D56DC03D5 /* GJWenger */;
+			targetProxy = 504D5FA55CC7A67170C1659F14BF370E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05BFBD247D09F940CC9A35181DD3E3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944129A6380FC2B2AEC0E6E0138A6696 /* GJWenger.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GJWenger/GJWenger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		061B90B1315C2434B5673B05EBD54741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA50599B20331FAB3890318621265D40 /* Pods-GJSplashScreen.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		242151B4F516BB46BC9C2492114A169E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118F893063CB183FFAF7DD14069873F2 /* Pods-GJSplashScreen.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA676E891E232BA4B6BCC0B94F617BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944129A6380FC2B2AEC0E6E0138A6696 /* GJWenger.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GJWenger/GJWenger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AF0FCF14C2EE6B81C0305989EEBB8BD /* Build configuration list for PBXNativeTarget "GJWenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BFBD247D09F940CC9A35181DD3E3CD /* Debug */,
+				CA676E891E232BA4B6BCC0B94F617BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE49C976141A2C948DDF3356AC5467D /* Build configuration list for PBXNativeTarget "Pods-GJSplashScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242151B4F516BB46BC9C2492114A169E /* Debug */,
+				061B90B1315C2434B5673B05EBD54741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

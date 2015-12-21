@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GJContentController">
+            <connections>
+                <outlet property="_webViewIndicator" destination="bta-dM-ONL" id="qQA-UE-1Cg"/>
+                <outlet property="contentWebView" destination="JUD-cO-aZF" id="uny-Pc-wG8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PS4-Sg-6Bz">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="886-7H-YE4">
+                            <rect key="frame" x="0.0" y="20" width="44" height="44"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="INe-gg-HGE"/>
+                                <constraint firstAttribute="height" constant="44" id="oSZ-Nu-wqq"/>
+                            </constraints>
+                            <state key="normal" image="closePage.png"/>
+                            <connections>
+                                <action selector="dismissHandle:" destination="-1" eventType="touchUpInside" id="g8q-Ic-BTq"/>
+                            </connections>
+                        </button>
+                        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="bta-dM-ONL">
+                            <rect key="frame" x="292" y="32" width="20" height="20"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="EZe-3P-2mX"/>
+                                <constraint firstAttribute="width" constant="20" id="RVB-bf-D9J"/>
+                            </constraints>
+                        </activityIndicatorView>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="bta-dM-ONL" secondAttribute="trailing" constant="8" id="201-qP-4f2"/>
+                        <constraint firstAttribute="bottom" secondItem="886-7H-YE4" secondAttribute="bottom" id="2Hc-h1-Alc"/>
+                        <constraint firstAttribute="bottom" secondItem="bta-dM-ONL" secondAttribute="bottom" constant="12" id="Nnh-8j-vyq"/>
+                        <constraint firstAttribute="height" constant="64" id="agJ-Sd-eIc"/>
+                        <constraint firstItem="886-7H-YE4" firstAttribute="leading" secondItem="PS4-Sg-6Bz" secondAttribute="leading" id="jgg-Od-ixW"/>
+                    </constraints>
+                </view>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JUD-cO-aZF">
+                    <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="lSE-UJ-TTG"/>
+                    </connections>
+                </webView>
+            </subviews>
+            <animations/>
+            <constraints>
+                <constraint firstItem="PS4-Sg-6Bz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="4ZG-Vu-rNF"/>
+                <constraint firstItem="JUD-cO-aZF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5AE-af-1kL"/>
+                <constraint firstAttribute="trailing" secondItem="PS4-Sg-6Bz" secondAttribute="trailing" id="JGt-Qd-GgY"/>
+                <constraint firstAttribute="trailing" secondItem="JUD-cO-aZF" secondAttribute="trailing" id="dXc-oa-WaQ"/>
+                <constraint firstAttribute="bottom" secondItem="JUD-cO-aZF" secondAttribute="bottom" id="gph-XK-Fds"/>
+                <constraint firstItem="PS4-Sg-6Bz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="oWU-AX-GBO"/>
+                <constraint firstItem="JUD-cO-aZF" firstAttribute="top" secondItem="PS4-Sg-6Bz" secondAttribute="bottom" id="toh-KA-nlr"/>
+            </constraints>
+            <point key="canvasLocation" x="370" y="320"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="closePage.png" width="34" height="34"/>
+    </resources>
+</document>

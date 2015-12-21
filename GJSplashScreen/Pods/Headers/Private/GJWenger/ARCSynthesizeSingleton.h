@@ -1,0 +1,1 @@
+../../../../../GJWenger/GJWenger/Others/ARCSynthesizeSingleton.h

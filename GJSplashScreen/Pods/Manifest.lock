@@ -1,0 +1,14 @@
+PODS:
+  - GJWenger (0.0.1)
+
+DEPENDENCIES:
+  - GJWenger (from `../GJWenger`)
+
+EXTERNAL SOURCES:
+  GJWenger:
+    :path: "../GJWenger"
+
+SPEC CHECKSUMS:
+  GJWenger: 54824c09ef6d7d28576b25bfe7d00c95cbc90186
+
+COCOAPODS: 0.39.0

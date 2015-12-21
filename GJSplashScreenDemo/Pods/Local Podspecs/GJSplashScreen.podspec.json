@@ -1,0 +1,11 @@
+{
+  "name": "GJSplashScreen",
+  "version": "0.0.1",
+  "summary": "这是一个现实闪屏图的库",
+  "license": "MIT",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "GJSplashScreen/code/*.{h,m}",
+  "resources": "GJSplashScreen/resource/*.{png,jpg,xib}"
+}

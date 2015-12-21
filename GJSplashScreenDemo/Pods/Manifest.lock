@@ -1,0 +1,19 @@
+PODS:
+  - GJSplashScreen (0.0.1)
+  - GJWenger (0.0.1)
+
+DEPENDENCIES:
+  - GJSplashScreen (from `../GJSplashScreen`)
+  - GJWenger (from `../GJWenger`)
+
+EXTERNAL SOURCES:
+  GJSplashScreen:
+    :path: "../GJSplashScreen"
+  GJWenger:
+    :path: "../GJWenger"
+
+SPEC CHECKSUMS:
+  GJSplashScreen: cfb4a09f5be1fc2b1103c2e496d10d6a24aca522
+  GJWenger: 54824c09ef6d7d28576b25bfe7d00c95cbc90186
+
+COCOAPODS: 0.39.0

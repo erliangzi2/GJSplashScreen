@@ -1,0 +1,1 @@
+../../../../../GJSplashScreen/GJSplashScreen/code/GJSplashScreenController.h
